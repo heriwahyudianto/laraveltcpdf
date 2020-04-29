@@ -15,7 +15,7 @@ class PdfController extends Controller
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <br /><br /><br /><br /><br /><br /><br /><br />
         <br /><br /><br /><br /><br />
-        <img src="free.png" alt="test alt attribute" width="100" height="100" border="0" />
+        <img src="img.svg" alt="test alt attribute" width="100" height="100" border="0" />
         </div>';
         $pdf = new TCPDF();
         $pdf::SetTitle('Image');
